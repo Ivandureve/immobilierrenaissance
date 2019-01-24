@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Nos préstations</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Nos préstations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">A propos de nous</a>
+              <a class="nav-link js-scroll-trigger" href="#about">A propos de nous</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -55,18 +55,18 @@
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">Immobilier Renaissance</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">L'immobillier qu'il vous faut !</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">Allons y</a>
+          <a href="#projects" class="btn btn-primary js-scroll-trigger">Allons y</a>
         </div>
       </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section text-center">
+<!--     <section id="about" class="about-section text-center">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-4 mx-right">
-            <img src="img/ipad.png" class="" alt="" style="height:250px">
+            <img src="img/demo-image-05.jpg" class="" alt="" style="height:250px">
           </div>
 
           <div class="col-lg-4 mx-auto">
@@ -80,16 +80,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <section class="projects-section bg-light">
       <div class="container">
 
         <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div id="projects" class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/demo-image-05.JPG" alt="">
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
@@ -100,9 +100,9 @@
         </div>
 
         <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div id="about" class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            <img class="img-fluid" src="img/demo-image-07.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -124,7 +124,7 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            <img class="img-fluid" src="img/demo-image-04.jpg" alt="">
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -146,7 +146,7 @@
         <!-- Project Tree Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            <img class="img-fluid" src="img/demo-image-08.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -165,6 +165,31 @@
           </div>
         </div>
 
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/demo-image-04.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Benjamin</h4>
+                  <h6>
+                    <a href="mailto:benjamin@immobilierrenaissance.com">Immobilier Commercial</a>
+                  </h6>
+                  <p class="mb-0 text-white-50">
+                    <a href="tel:+33664918450‬">+336 51 29 95 47‬</a>
+                    <br>
+                    <a href="mailto:benjamin@immobilierrenaissance.com">benjamin@immobilierrenaissance.com</a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </section>
@@ -175,7 +200,7 @@
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <i class="fa fa-home fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Un projet ? On vous rappel !</h2>
 
             <form class="form-group row" method="POST" action="https://formspree.io/ivan.rimbaud@gmail.com">
@@ -183,14 +208,10 @@
               <input class="form-control col-xs-12 col-form-label" style="background-color:#FFFFF" type="email" name="email" placeholder="Votre email" class="form-group">
               <input class="form-control col-xs-12 col-form-label" id="exampleInputName2" style="background-color:#FFFFF" type="tel" name="usrtel" placeholder="Votre téléphone" class="form-group">
               <button type="submit" class="btn btn-primary js-scroll-trigger col-md-12">Demander à etre rappeler</button>
-
             </form>
-
 
           </div>
         </div>
-
-
 
       </div>
     </section>

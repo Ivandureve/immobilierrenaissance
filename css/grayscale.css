@@ -185,19 +185,19 @@
   padding: 2rem;
 }
 
-@media (min-width: 992px) {
+/*@media (max-width: 25%) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
-}
+}*/
 
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
-@media (min-width: 992px) {
+/*@media (max-width: 25%) {
   .projects-section .project-text {
     padding: 5rem;
   }
@@ -206,7 +206,8 @@
     border-width: .25rem;
     width: 30%;
   }
-}
+}*/
+
 
 .signup-section {
   padding: 10rem 0;
@@ -230,26 +231,15 @@
   border: 0;
 }
 
-.contact-section {
-  padding: 5rem 0 0;
-}
 
-.contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
-}
-
-.contact-section .card h4 {
-  font-size: 0.8rem;
-  font-family: 'Varela Round';
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-}
-
-.contact-section .card hr {
-  border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
+.contact-section
+  height:1000px;
+  .card {
+    hr {
+      border-color: #64a19d;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
 }
 
 .contact-section .social {
